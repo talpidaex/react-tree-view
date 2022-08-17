@@ -1,0 +1,37 @@
+.d-tree-container {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .d-tree-node {
+    /* padding: 0.75rem 1.25rem; */
+    padding-left: 44px;
+    /* padding-right: 1.25rem; */
+    position: relative;
+    
+  }
+  
+  .d-tree-toggler.active {
+    transform: rotate(45deg);
+  }
+  
+  .vertical-line {
+    height: 100%;
+    background-color: red;
+    width: 1px;
+    position: absolute;
+  }
+  .horizontal-line {
+    height: 1px;
+    width: 44px;
+    background-color: green;
+    position: absolute;
+    left: 0;
+  }
+  .d-tree-head {
+    display: flex;
+    align-items: center;
+  }
+  .ml-3x {
+    margin-left: 29px;
+  }
